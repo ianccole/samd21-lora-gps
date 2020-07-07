@@ -5072,7 +5072,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="-271.78" y="116.84" size="1.778" layer="94">SAMD21</text>
+<text x="-271.78" y="116.84" size="2.54" layer="94">SAMD21</text>
 <text x="-274.32" y="-91.44" size="2.54" layer="94">USB</text>
 <text x="-187.96" y="-91.44" size="2.54" layer="94">RFM95W</text>
 <text x="-81.28" y="-91.44" size="2.54" layer="94">GPS</text>
