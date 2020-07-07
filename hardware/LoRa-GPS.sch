@@ -5073,11 +5073,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="-271.78" y="116.84" size="1.778" layer="94">SAMD21</text>
-<text x="-274.32" y="-91.44" size="1.778" layer="94">USB</text>
-<text x="-187.96" y="-91.44" size="1.778" layer="94">RFM95W</text>
-<text x="-81.28" y="-91.44" size="1.778" layer="94">GPS</text>
+<text x="-274.32" y="-91.44" size="2.54" layer="94">USB</text>
+<text x="-187.96" y="-91.44" size="2.54" layer="94">RFM95W</text>
+<text x="-81.28" y="-91.44" size="2.54" layer="94">GPS</text>
 <text x="-191.77" y="-62.992" size="1.778" layer="97" font="vector">500mA charging</text>
 <text x="-269.24" y="-33.02" size="2.54" layer="94" font="vector">LIPO CHARGER</text>
+<wire x1="-276.86" y1="-76.2" x2="-195.58" y2="-76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-195.58" y1="-76.2" x2="-129.54" y2="-76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-129.54" y1="-76.2" x2="-88.9" y2="-76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-88.9" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="30.48" y1="-76.2" x2="30.48" y2="-149.86" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-195.58" y1="-76.2" x2="-195.58" y2="-149.86" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-88.9" y1="-76.2" x2="-88.9" y2="-149.86" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-276.86" y1="-17.78" x2="-129.54" y2="-17.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-129.54" y1="-17.78" x2="-129.54" y2="-76.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-99.06" y1="124.46" x2="-99.06" y2="-17.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-99.06" y1="-17.78" x2="-129.54" y2="-17.78" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="SAMD21" gate="G$1" x="-182.88" y="68.58" smashed="yes"/>
@@ -5745,12 +5756,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GPS" gate="G$1" pin="1PPS"/>
 <wire x1="-22.86" y1="-104.14" x2="-20.32" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-20.066" y="-104.648" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="-86.36" y1="-86.36" x2="22.86" y2="-86.36" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="22.86" y1="-86.36" x2="22.86" y2="-149.86" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="CHARGE_STAT" class="0">
