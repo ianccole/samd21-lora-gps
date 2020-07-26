@@ -3245,9 +3245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="ANT" library="nootropicdesign" deviceset="M01" device=""/>
-<part name="S1" library="switch-tact" deviceset="DTSM-3" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="GND"/>
 <part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
@@ -3259,6 +3256,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S2" library="switch-tact" deviceset="DTSM-3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -3400,17 +3398,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="-142.24" y="-91.44" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-142.24" y="-99.822" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="S1" gate="G$1" x="-238.76" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="-240.665" y="67.31" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-235.585" y="64.77" size="1.778" layer="96"/>
-</instance>
-<instance part="GND3" gate="1" x="-243.84" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-246.38" y="50.8" size="1.778" layer="96"/>
-</instance>
-<instance part="TP1" gate="G$1" x="-215.9" y="0" smashed="yes">
-<attribute name="NAME" x="-218.44" y="2.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-218.44" y="-2.54" size="1.778" layer="96"/>
-</instance>
 <instance part="TP5" gate="G$1" x="-215.9" y="40.64" smashed="yes">
 <attribute name="NAME" x="-218.44" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-218.44" y="38.1" size="1.778" layer="96"/>
@@ -3453,6 +3440,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LAST_DATE_TIME" x="55.88" y="-148.59" size="2.54" layer="94"/>
 <attribute name="SHEET" x="129.54" y="-148.59" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="60.96" y="-130.81" size="2.54" layer="94"/>
+</instance>
+<instance part="TP1" gate="G$1" x="-215.9" y="0" smashed="yes">
+<attribute name="NAME" x="-218.44" y="2.54" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-218.44" y="-2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3551,19 +3542,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-238.76" y1="86.36" x2="-236.22" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="-243.84" y1="60.96" x2="-243.84" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="-215.9" y1="0" x2="-223.52" y2="0" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="-243.84" y1="17.78" x2="-243.84" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-215.9" y1="0" x2="-223.52" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3815,17 +3801,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="RADIO" gate="G$1" pin="ANT"/>
 <pinref part="ANT" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="-114.3" x2="-152.4" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="-233.68" y1="60.96" x2="-226.06" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="60.96" x2="-226.06" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="78.74" x2="-215.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-215.9" y1="78.74" x2="-215.9" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SAMD21" gate="G$1" pin="PA03"/>
-<wire x1="-215.9" y1="83.82" x2="-200.66" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D17" class="0">
