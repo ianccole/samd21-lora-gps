@@ -3741,7 +3741,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GPS" gate="G$1" pin="TX"/>
 <wire x1="-22.86" y1="-124.46" x2="-20.32" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-20.32" y="-124.46" size="1.778" layer="95" xref="yes"/>
+<label x="-20.32" y="-124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -3753,7 +3753,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GPS" gate="G$1" pin="RX"/>
 <wire x1="-22.86" y1="-129.54" x2="-20.32" y2="-129.54" width="0.1524" layer="91"/>
-<label x="-20.32" y="-129.54" size="1.778" layer="95" xref="yes"/>
+<label x="-20.32" y="-129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3840,7 +3840,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GPS" gate="G$1" pin="1PPS"/>
 <wire x1="-22.86" y1="-104.14" x2="-20.32" y2="-104.14" width="0.1524" layer="91"/>
-<label x="-20.32" y="-104.14" size="1.778" layer="95" xref="yes"/>
+<label x="-20.32" y="-104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
