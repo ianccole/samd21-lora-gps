@@ -23,7 +23,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -859,7 +859,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S2" pad="1"/>
 <contactref element="SAMD21" pad="28"/>
 <contactref element="TP1" pad="P$1"/>
-<via x="33.02" y="8.89" extent="1-16" drill="0.508"/>
+<via x="33.02" y="8.89" extent="1-16" drill="0.254"/>
 <wire x1="33.02" y1="8.89" x2="33.01" y2="8.88" width="0.254" layer="16"/>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="17.78"/>
@@ -888,9 +888,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="GPS" pad="5"/>
 <contactref element="SAMD21" pad="30"/>
 <contactref element="TP2" pad="P$1"/>
-<wire x1="33.02" y1="11.43" x2="32.6136" y2="11.43" width="0.1524" layer="1"/>
-<wire x1="32.6136" y1="11.43" x2="32.1818" y2="11.8618" width="0.1524" layer="1"/>
-<via x="33.02" y="11.43" extent="1-16" drill="0.508"/>
+<via x="33.02" y="11.43" extent="1-16" drill="0.254"/>
 <wire x1="33.05" y1="11.46" x2="33.02" y2="11.43" width="0.254" layer="16"/>
 <wire x1="12.2682" y1="8.7122" x2="12.2682" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="11.557" y1="9.4234" x2="12.2682" y2="8.7122" width="0.1524" layer="1"/>
@@ -928,17 +926,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.224" y1="9.9568" x2="14.09" y2="9.89" width="0.1524" layer="16"/>
 <wire x1="32.893" y1="12.8016" x2="33.05" y2="12.69" width="0.1524" layer="16"/>
 <wire x1="27.559" y1="15.113" x2="27.2034" y2="15.113" width="0.1524" layer="1"/>
-<wire x1="29.5148" y1="13.1572" x2="27.559" y2="15.113" width="0.1524" layer="1"/>
-<wire x1="32.1818" y1="13.1572" x2="29.5148" y2="13.1572" width="0.1524" layer="1"/>
+<wire x1="27.559" y1="15.113" x2="31.2928" y2="11.3792" width="0.1524" layer="1"/>
 <wire x1="27.2034" y1="15.113" x2="27.1018" y2="15.24" width="0.1524" layer="1"/>
-<wire x1="32.1818" y1="11.8364" x2="32.1818" y2="11.8618" width="0.1524" layer="1"/>
-<wire x1="32.1818" y1="13.1572" x2="32.1818" y2="11.8618" width="0.1524" layer="1"/>
-<wire x1="32.1818" y1="11.8364" x2="33.8582" y2="10.16" width="0.1524" layer="1"/>
 <wire x1="27.305" y1="1.0668" x2="33.8582" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="33.8582" y1="7.62" x2="33.8582" y2="10.16" width="0.1524" layer="1"/>
 <wire x1="33.05" y1="12.69" x2="33.05" y2="11.46" width="0.1524" layer="16"/>
 <wire x1="33.02" y1="11.43" x2="33.05" y2="11.4" width="0.1524" layer="16"/>
 <wire x1="33.05" y1="11.4" x2="33.05" y2="10.15" width="0.1524" layer="16"/>
+<wire x1="31.2928" y1="11.3792" x2="32.9692" y2="11.3792" width="0.1524" layer="1"/>
+<wire x1="32.9692" y1="11.3792" x2="33.02" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="33.02" y1="11.43" x2="33.8582" y2="10.5918" width="0.1524" layer="1"/>
+<wire x1="33.8582" y1="10.5918" x2="33.8582" y2="10.16" width="0.1524" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="J2" pad="1"/>
