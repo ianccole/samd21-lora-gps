@@ -812,61 +812,6 @@ Footprint for SMD assembly.</description>
 </library>
 <library name="nootropicdesign">
 <packages>
-<package name="MICROUSB-RIGHT">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Micro USB Type B connector. Based on FCI 10118193-0001LF.&lt;br&gt;</description>
-<smd name="3" x="0" y="2.7" dx="0.4" dy="1.4" layer="1" rot="R180"/>
-<smd name="4" x="0.65" y="2.7" dx="0.4" dy="1.4" layer="1" rot="R180"/>
-<smd name="2" x="-0.65" y="2.7" dx="0.4" dy="1.4" layer="1" rot="R180"/>
-<smd name="1" x="-1.3" y="2.7" dx="0.4" dy="1.4" layer="1" rot="R180"/>
-<smd name="5" x="1.3" y="2.7" dx="0.4" dy="1.4" layer="1" rot="R180"/>
-<smd name="S3" x="-3.2" y="2.67" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="S4" x="3.2" y="2.67" dx="1.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-5.08" y="4.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<wire x1="-4.2" y1="-1.455" x2="4.2" y2="-1.455" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="-1.455" x2="-4.2" y2="3.7" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="3.7" x2="4.2" y2="3.7" width="0.127" layer="21"/>
-<wire x1="4.2" y1="3.7" x2="4.2" y2="-1.455" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="0.35" x2="-3.25" y2="-0.35" width="0.01" layer="46"/>
-<wire x1="-3.25" y1="-0.35" x2="-3" y2="-0.6" width="0.01" layer="46" curve="90"/>
-<wire x1="-3" y1="-0.6" x2="-2.75" y2="-0.35" width="0.01" layer="46" curve="90"/>
-<wire x1="-2.75" y1="-0.35" x2="-2.75" y2="0.35" width="0.01" layer="46"/>
-<wire x1="-2.75" y1="0.35" x2="-3" y2="0.6" width="0.01" layer="46" curve="90"/>
-<wire x1="-3" y1="0.6" x2="-3.25" y2="0.35" width="0.01" layer="46" curve="90"/>
-<wire x1="2.75" y1="0.35" x2="2.75" y2="-0.35" width="0.01" layer="46"/>
-<wire x1="2.75" y1="-0.35" x2="3" y2="-0.6" width="0.01" layer="46" curve="90"/>
-<wire x1="3" y1="-0.6" x2="3.25" y2="-0.35" width="0.01" layer="46" curve="90"/>
-<wire x1="3.25" y1="-0.35" x2="3.25" y2="0.35" width="0.01" layer="46"/>
-<wire x1="3.25" y1="0.35" x2="3" y2="0.6" width="0.01" layer="46" curve="90"/>
-<wire x1="3" y1="0.6" x2="2.75" y2="0.35" width="0.01" layer="46" curve="90"/>
-<smd name="S1" x="-3" y="0" dx="0.9" dy="1.6" layer="1" roundness="100" rot="R180"/>
-<smd name="S2" x="3" y="0" dx="0.9" dy="1.6" layer="1" roundness="100" rot="R180"/>
-<smd name="S7" x="-3" y="0" dx="0.9" dy="1.6" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="S8" x="3" y="0" dx="0.9" dy="1.6" layer="16" roundness="100" rot="R180" cream="no"/>
-<hole x="-1.9" y="2.2" drill="0.85"/>
-<hole x="1.9" y="2.2" drill="0.85"/>
-</package>
-<package name="MINIUSB-RIGHT">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Mini USB Type B connector. Based on 4UCON 20236.&lt;br&gt;</description>
-<smd name="1" x="-1.6" y="0" dx="0.5" dy="2.25" layer="1"/>
-<smd name="2" x="-0.8" y="0" dx="0.5" dy="2.25" layer="1"/>
-<smd name="3" x="0" y="0" dx="0.5" dy="2.25" layer="1"/>
-<smd name="4" x="0.8" y="0" dx="0.5" dy="2.25" layer="1"/>
-<smd name="5" x="1.6" y="0" dx="0.5" dy="2.25" layer="1"/>
-<smd name="S1" x="-4.45" y="-0.125" dx="2" dy="2.5" layer="1"/>
-<smd name="S3" x="-4.45" y="-5.5" dx="2" dy="2.5" layer="1"/>
-<smd name="S4" x="4.45" y="-5.5" dx="2" dy="2.5" layer="1"/>
-<smd name="S2" x="4.45" y="-0.125" dx="2" dy="2.5" layer="1"/>
-<hole x="-2.2" y="-2.675" drill="0.9"/>
-<hole x="2.2" y="-2.675" drill="0.9"/>
-<wire x1="-3.8" y1="-1.75" x2="-3.8" y2="-4" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-7" x2="-3.8" y2="-8.575" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-8.575" x2="3.8" y2="-8.575" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="0.625" x2="-3.05" y2="0.625" width="0.127" layer="21"/>
-<wire x1="2.25" y1="0.625" x2="3.05" y2="0.625" width="0.127" layer="21"/>
-<wire x1="3.8" y1="-7" x2="3.8" y2="-8.575" width="0.127" layer="21"/>
-<wire x1="3.8" y1="-1.75" x2="3.8" y2="-4" width="0.127" layer="21"/>
-<text x="-3.8" y="1.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
-</package>
 <package name="CAP-CERAMIC">
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
 <wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
@@ -2088,66 +2033,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="USB_5PIN">
-<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for 5-Pin USB connectors.&lt;br&gt;</description>
-<pin name="5V" x="7.62" y="5.08" visible="off" length="short" direction="pwr" rot="R180"/>
-<pin name="D-" x="7.62" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="D+" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<pin name="GND" x="7.62" y="-5.08" visible="off" length="short" direction="pwr" rot="R180"/>
-<text x="0" y="6.096" size="1.016" layer="97" font="vector" align="bottom-center">USB PORT</text>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.127" layer="94"/>
-<text x="-5.08" y="11.43" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="-5.08" y="8.89" size="1.016" layer="96" font="vector">&gt;VALUE</text>
-<pin name="ID" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="SLD" x="7.62" y="-7.62" visible="off" length="short" direction="pwr" rot="R180"/>
-<text x="4.572" y="5.08" size="1.016" layer="97" font="vector" align="center-right">5V</text>
-<text x="4.572" y="2.54" size="1.016" layer="97" font="vector" align="center-right">D-</text>
-<text x="4.572" y="0" size="1.016" layer="97" font="vector" align="center-right">D+</text>
-<text x="4.572" y="-2.54" size="1.016" layer="97" font="vector" align="center-right">ID</text>
-<text x="4.572" y="-5.08" size="1.016" layer="97" font="vector" align="center-right">GND</text>
-<text x="4.572" y="-7.62" size="1.016" layer="97" font="vector" align="center-right">SHIELD</text>
-<polygon width="0.254" layer="94">
-<vertex x="-1.905" y="3.175"/>
-<vertex x="-1.27" y="4.445"/>
-<vertex x="-0.635" y="3.175"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="-3.175" y="0.3175" curve="-90"/>
-<vertex x="-2.8575" y="0" curve="-90"/>
-<vertex x="-3.175" y="-0.3175" curve="-90"/>
-<vertex x="-3.4925" y="0" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.3175" y="1.5875"/>
-<vertex x="0.3175" y="0.9525"/>
-<vertex x="0.9525" y="0.9525"/>
-<vertex x="0.9525" y="1.5875"/>
-</polygon>
-<wire x1="-1.27" y1="-3.595840625" x2="-1.27" y2="-2.325840625" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.325840625" x2="-1.27" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0.337421875" y1="-0.297578125" x2="-0.972421875" y2="-1.607421875" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="0" x2="-3.175" y2="-0.849159375" width="0.254" layer="94"/>
-<wire x1="-2.877421875" y1="-1.567578125" x2="-1.567578125" y2="-2.877421875" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-0.849159375" x2="-2.877421875" y2="-1.567578125" width="0.254" layer="94" curve="44.999875"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="0.420840625" width="0.254" layer="94"/>
-<wire x1="0.635" y1="0.420840625" x2="0.337421875" y2="-0.297578125" width="0.254" layer="94" curve="-44.999875"/>
-<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-3.595840625" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.595840625" x2="-1.567578125" y2="-2.877421875" width="0.254" layer="94" curve="44.999875"/>
-<wire x1="-1.27" y1="-2.325840625" x2="-0.972421875" y2="-1.607421875" width="0.254" layer="94" curve="-44.999875"/>
-<polygon width="0.254" layer="94">
-<vertex x="-1.2065" y="-5.715"/>
-<vertex x="-1.3335" y="-5.715" curve="-90"/>
-<vertex x="-2.2225" y="-4.826"/>
-<vertex x="-2.2225" y="-4.699" curve="-90"/>
-<vertex x="-1.3335" y="-3.81"/>
-<vertex x="-1.2065" y="-3.81" curve="-90"/>
-<vertex x="-0.3175" y="-4.699"/>
-<vertex x="-0.3175" y="-4.826" curve="-90"/>
-</polygon>
-</symbol>
 <symbol name="CAP">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
@@ -2210,53 +2095,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" prefix="J" uservalue="yes">
-<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Connectors&lt;br/&gt;
-&lt;b&gt;Description:&lt;/b&gt; 5 Pin USB Connectors. SLD is the shield connection. Usually tied to ground through a small ferrite bead.&lt;br/&gt;</description>
-<gates>
-<gate name="G$1" symbol="USB_5PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_MICRO_RIGHT" package="MICROUSB-RIGHT">
-<connects>
-<connect gate="G$1" pin="5V" pad="1"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SLD" pad="S1 S2 S3 S4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HOUSEPART" value="YES" constant="no"/>
-<attribute name="MPN" value="MF-CON-MICROUSB-RIGHT" constant="no"/>
-<attribute name="POPULATE" value="1" constant="no"/>
-<attribute name="URL" value="https://factory.macrofab.com/part/MF-CON-MICROUSB-RIGHT" constant="no"/>
-<attribute name="VALUE" value="MF-CON-MICROUSB-RIGHT" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_MINI_RIGHT" package="MINIUSB-RIGHT">
-<connects>
-<connect gate="G$1" pin="5V" pad="1"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SLD" pad="S1 S2 S3 S4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HUOSEPART" value="NO" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="POPULATE" value="1" constant="no"/>
-<attribute name="URL" value="http://www.4uconnector.com/online/object/4udrawing/20236.pdf" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAP" prefix="C" uservalue="yes">
 <description>Unpolarized capacitor</description>
 <gates>
@@ -3447,6 +3285,105 @@ Switches electrical signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="usb">
+<packages>
+<package name="CONN_10118193-0001LF_AMP">
+<smd name="1" x="-1.3" y="2.6587" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="2" x="-0.65" y="2.6587" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="3" x="0" y="2.6587" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="4" x="0.65" y="2.6587" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="5" x="1.3" y="2.6587" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="6" x="-3.2" y="2.4337" dx="1.6002" dy="1.397" layer="1"/>
+<smd name="7" x="3.2" y="2.4337" dx="1.6002" dy="1.397" layer="1"/>
+<smd name="8" x="-1.2" y="-0.016303125" dx="1.905" dy="1.905" layer="1"/>
+<smd name="9" x="1.2" y="-0.016303125" dx="1.905" dy="1.905" layer="1"/>
+<pad name="S_1_H1" x="-3.302" y="0.3302" drill="0.508" diameter="0.508"/>
+<pad name="S_1_H2" x="-3.302" y="-0.3556" drill="0.508" diameter="0.508"/>
+<smd name="S_1" x="-3.3" y="-0.016303125" dx="1.6002" dy="0.9144" layer="1" roundness="100" rot="R90"/>
+<pad name="S_2_H1" x="3.302" y="0.3302" drill="0.508" diameter="0.508"/>
+<pad name="S_2_H2" x="3.302" y="-0.3556" drill="0.508" diameter="0.508"/>
+<smd name="S_2" x="3.3" y="-0.016303125" dx="1.6002" dy="0.9144" layer="1" roundness="100" rot="R90"/>
+<wire x1="-4.064" y1="-3.048" x2="4.064" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-3.048" x2="4.064" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="2.0574" y1="3.048" x2="1.8288" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="1.397" x2="-4.064" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-1.8288" y1="3.048" x2="-2.0574" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-0.5588" x2="-4.064" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="0.5334" x2="4.064" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-5.4356" y1="2.667" x2="-6.1976" y2="2.667" width="0.508" layer="21" curve="-180"/>
+<wire x1="-6.1976" y1="2.667" x2="-5.4356" y2="2.667" width="0.508" layer="21" curve="-180"/>
+<text x="-1.7272" y="2.032" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-3.9116" y1="-2.9464" x2="3.9116" y2="-2.9464" width="0.1524" layer="51"/>
+<wire x1="3.9116" y1="-2.9464" x2="3.9116" y2="2.921" width="0.1524" layer="51"/>
+<wire x1="3.9116" y1="2.921" x2="-3.9116" y2="2.921" width="0.1524" layer="51"/>
+<wire x1="-3.9116" y1="2.921" x2="-3.9116" y2="-2.9464" width="0.1524" layer="51"/>
+<wire x1="-0.9144" y1="4.572" x2="-1.6764" y2="4.572" width="0.508" layer="51" curve="-180"/>
+<wire x1="-1.6764" y1="4.572" x2="-0.9144" y2="4.572" width="0.508" layer="51" curve="-180"/>
+<wire x1="-5.4356" y1="2.667" x2="-6.1976" y2="2.667" width="0.508" layer="22" curve="-180"/>
+<wire x1="-6.1976" y1="2.667" x2="-5.4356" y2="2.667" width="0.508" layer="22" curve="-180"/>
+<wire x1="-3.302" y1="-0.3556" x2="-3.302" y2="0.3302" width="0.508" layer="49"/>
+<wire x1="3.302" y1="-0.3556" x2="3.302" y2="0.3302" width="0.508" layer="49"/>
+<text x="-3.2766" y="2.032" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CONN_005P_000C_1">
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="5" x="0" y="-10.16" visible="pad" length="middle" direction="pas"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.7018" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-4.2418" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-6.7818" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="8.89" y2="-9.3218" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3782" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-5.9182" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-8.4582" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="8.89" y2="-10.9982" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10118193-0001LF" prefix="J">
+<gates>
+<gate name="A" symbol="CONN_005P_000C_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_10118193-0001LF_AMP">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf?__cf_chl_jschl_tk__=a8f915883d8a15ec52ba3da7cac6da447c067065-1585687333-0-AeTqj1PVGRcwivxyLfr2HIIJdSgjW9aWr2-tEVZv58JZ4MvKPui9PzgtNs4qEhQa3xhTc4PEEwqmpwCiLX-Mn9esUSOLuokaanx-gl9CtiRGI0zL0WEBaJ4qAH-QGYTc9if4j3e60iZGG1jV87AeWcWSHTseO-QXFQdJ2lYVoKBPs0nLQrI4UM9h8waE1NfgkqDkG8TrRwRKWUqCenCW_G_qUD_xHZAHs5r6-J7bQkuWDwigLofzmFuiOP-rzA6PyAeJYAxYuER2cKgqWn6YIZiprjtLzfPeY3Pa33nAv5O6JSY0o0UZSkA1o_RuFPr3r85P8q7m80bgsdsrPGgT-K2ymqGTzSUfS5_KnHUZHYuJGhst6Y-UqozrxKXLo3HWMp9F75PZPMa36Hpy1i4eWvE" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10118193-0001LF" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Amphenol-ICC_2020-03-31" constant="no"/>
+<attribute name="VENDOR" value="Amphenol" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3457,21 +3394,68 @@ Switches electrical signals</description>
 </class>
 </classes>
 <parts>
-<part name="SAMD21" library="atmel-samd21" deviceset="ATSAMD21E18A-AU" device=""/>
-<part name="Y1" library="abracon" deviceset="CRYSTAL" device=".ABS07"/>
-<part name="GPS" library="quectel" deviceset="QUECTEL-L80" device="NOCREAM" value="QUECTEL-L80NOCREAM"/>
-<part name="RADIO" library="diy-modules" deviceset="WIRELESS-LORA-RFM95W" device="#SMD"/>
-<part name="J2" library="nootropicdesign" deviceset="USB" device="_MICRO_RIGHT" value="MF-CON-MICROUSB-RIGHT"/>
-<part name="U1" library="MCP1703" deviceset="MCP1703*02E/CB" device="" technology="-33"/>
-<part name="C1" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="10uF"/>
-<part name="C2" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="18pF"/>
-<part name="C3" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="18pF"/>
+<part name="SAMD21" library="atmel-samd21" deviceset="ATSAMD21E18A-AU" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="Y1" library="abracon" deviceset="CRYSTAL" device=".ABS07">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="GPS" library="quectel" deviceset="QUECTEL-L80" device="NOCREAM" value="QUECTEL-L80NOCREAM">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="RADIO" library="diy-modules" deviceset="WIRELESS-LORA-RFM95W" device="#SMD">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="U1" library="MCP1703" deviceset="MCP1703*02E/CB" device="" technology="-33">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C1" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C2" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="18pF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C3" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="18pF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="1uF"/>
-<part name="C5" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF"/>
-<part name="C6" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF"/>
-<part name="C7" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF"/>
+<part name="C4" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C5" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="02016D104KAT2A"/>
+<attribute name="OC_FARNELL" value="1657913"/>
+</part>
+<part name="C6" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="02016D104KAT2A"/>
+<attribute name="OC_FARNELL" value="1657913"/>
+</part>
+<part name="C7" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="02016D104KAT2A"/>
+<attribute name="OC_FARNELL" value="1657913"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -3483,29 +3467,98 @@ Switches electrical signals</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="470"/>
-<part name="LED1" library="nootropicdesign" deviceset="LED" device="CHIPLED_0805_THINCREAM"/>
+<part name="R1" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="470">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="LED1" library="nootropicdesign" deviceset="LED" device="CHIPLED_0805_THINCREAM">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C8" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="10uF"/>
-<part name="C9" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF"/>
+<part name="C8" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C9" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="100nF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="02016D104KAT2A"/>
+<attribute name="OC_FARNELL" value="1657913"/>
+</part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="ANT" library="nootropicdesign" deviceset="M01" device=""/>
-<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
-<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
-<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value=""/>
-<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="VCC"/>
-<part name="JP1" library="nootropicdesign" deviceset="M01" device="LONG"/>
-<part name="JP2" library="nootropicdesign" deviceset="M01" device="LONG"/>
-<part name="S2" library="switch-tact" deviceset="DTSM-3" device=""/>
+<part name="ANT" library="nootropicdesign" deviceset="M01" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="VCC">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="JP1" library="nootropicdesign" deviceset="M01" device="LONG">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="JP2" library="nootropicdesign" deviceset="M01" device="LONG">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S2" library="switch-tact" deviceset="DTSM-3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="GND"/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="GND">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="ianc" deviceset="MOSFET_PCH" device="-IRLML6402" package3d_urn="urn:adsk.eagle:package:38446/1" value="IRLML6402"/>
-<part name="C10" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="4.7uF"/>
-<part name="R2" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="470"/>
-<part name="R3" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="2K2"/>
+<part name="Q1" library="ianc" deviceset="MOSFET_PCH" device="-IRLML6402" package3d_urn="urn:adsk.eagle:package:38446/1" value="IRLML6402">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C10" library="nootropicdesign" deviceset="CAP" device="C0603-THINCREAM" value="4.7uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R2" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="470">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R3" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="2K2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="J1" library="usb" deviceset="10118193-0001LF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3531,38 +3584,59 @@ Switches electrical signals</description>
 <wire x1="-132.08" y1="27.94" x2="-99.06" y2="27.94" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
-<instance part="SAMD21" gate="G$1" x="-182.88" y="68.58" smashed="yes"/>
+<instance part="SAMD21" gate="G$1" x="-182.88" y="68.58" smashed="yes">
+<attribute name="OC_FARNELL" x="-182.88" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-182.88" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-182.88" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y1" gate="G$1" x="-210.82" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="-208.28" y="106.64" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-214.63" y="106.64" size="1.27" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="-210.82" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-210.82" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-210.82" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GPS" gate="G$1" x="-58.42" y="-124.46" smashed="yes">
 <attribute name="NAME" x="-71.374" y="-108.458" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-71.12" y="-142.24" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="-58.42" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-58.42" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-58.42" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RADIO" gate="G$1" x="-134.62" y="-121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="-121.92" y="-139.7" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-121.92" y="-137.16" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="J2" gate="G$1" x="-261.62" y="-121.92" smashed="yes">
-<attribute name="NAME" x="-266.7" y="-110.49" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="-266.7" y="-113.03" size="1.016" layer="96" font="vector"/>
+<attribute name="OC_FARNELL" x="-134.62" y="-121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-134.62" y="-121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-134.62" y="-121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="-223.52" y="-116.84" smashed="yes">
 <attribute name="NAME" x="-228.6" y="-112.649" size="1.6764" layer="95" ratio="12"/>
 <attribute name="VALUE" x="-228.6" y="-114.935" size="1.6764" layer="96"/>
+<attribute name="OC_FARNELL" x="-223.52" y="-116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-223.52" y="-116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-223.52" y="-116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="-205.74" y="-129.54" smashed="yes">
 <attribute name="NAME" x="-204.216" y="-129.159" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-204.216" y="-134.239" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-205.74" y="-129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-205.74" y="-129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-205.74" y="-129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="-220.98" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="-220.599" y="100.076" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-225.679" y="100.076" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="-220.98" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-220.98" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-220.98" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="-223.52" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="-223.901" y="108.204" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-218.821" y="108.204" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-223.52" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-223.52" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-223.52" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="-223.52" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="-226.06" y="-139.7" size="1.778" layer="96"/>
@@ -3573,18 +3647,30 @@ Switches electrical signals</description>
 <instance part="C4" gate="G$1" x="-119.38" y="76.2" smashed="yes">
 <attribute name="NAME" x="-117.856" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-117.856" y="71.501" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-119.38" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-119.38" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-119.38" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="-127" y="76.2" smashed="yes">
 <attribute name="NAME" x="-125.476" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-125.476" y="71.501" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-127" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-127" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-127" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="-215.9" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="-216.281" y="70.104" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-211.201" y="70.104" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="-162.56" y="-124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="-162.941" y="-122.936" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-157.861" y="-122.936" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-162.56" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-162.56" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-162.56" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="-218.44" y="63.5" smashed="yes">
 <attribute name="VALUE" x="-220.98" y="60.96" size="1.778" layer="96"/>
@@ -3622,10 +3708,16 @@ Switches electrical signals</description>
 <instance part="R1" gate="G$1" x="-220.98" y="86.36" smashed="yes">
 <attribute name="NAME" x="-224.79" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-224.79" y="83.058" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-220.98" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-220.98" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-220.98" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="-231.14" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="-235.712" y="82.804" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-235.712" y="80.645" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-231.14" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-231.14" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-231.14" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="-78.74" y="-142.24" smashed="yes">
 <attribute name="VALUE" x="-81.28" y="-144.78" size="1.778" layer="96"/>
@@ -3636,10 +3728,16 @@ Switches electrical signals</description>
 <instance part="C8" gate="G$1" x="-30.48" y="-124.46" smashed="yes">
 <attribute name="NAME" x="-28.956" y="-124.079" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-28.956" y="-129.159" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-30.48" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-30.48" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-30.48" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="-20.32" y="-124.46" smashed="yes">
 <attribute name="NAME" x="-18.796" y="-124.079" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-18.796" y="-129.159" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-20.32" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-20.32" y="-124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-20.32" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="-20.32" y="-142.24" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="-144.78" size="1.778" layer="96"/>
@@ -3647,33 +3745,57 @@ Switches electrical signals</description>
 <instance part="ANT" gate="G$1" x="-144.78" y="-96.52" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-142.24" y="-91.44" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-142.24" y="-99.822" size="1.778" layer="95" rot="R180"/>
+<attribute name="OC_FARNELL" x="-144.78" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-144.78" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-144.78" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP5" gate="G$1" x="-215.9" y="40.64" smashed="yes">
 <attribute name="NAME" x="-218.44" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-218.44" y="38.1" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-215.9" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP4" gate="G$1" x="-215.9" y="30.48" smashed="yes">
 <attribute name="NAME" x="-218.44" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-218.44" y="27.94" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-215.9" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP3" gate="G$1" x="-215.9" y="20.32" smashed="yes">
 <attribute name="NAME" x="-218.44" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-218.44" y="17.78" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-215.9" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP2" gate="G$1" x="-215.9" y="10.16" smashed="yes">
 <attribute name="NAME" x="-218.44" y="12.7" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="-215.9" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="G$1" x="-264.16" y="-99.06" smashed="yes">
 <attribute name="VALUE" x="-266.7" y="-104.14" size="1.778" layer="96"/>
 <attribute name="NAME" x="-266.7" y="-95.758" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="-264.16" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-264.16" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-264.16" y="-99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP2" gate="G$1" x="-243.84" y="-134.62" smashed="yes">
 <attribute name="VALUE" x="-246.38" y="-139.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="-246.38" y="-131.318" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="-243.84" y="-134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="-134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="-134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="S2" gate="G$1" x="-121.92" y="5.08" smashed="yes">
 <attribute name="NAME" x="-128.27" y="3.175" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-125.73" y="8.255" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="-121.92" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="-124.46" y="-15.24" size="1.778" layer="96"/>
@@ -3686,6 +3808,9 @@ Switches electrical signals</description>
 </instance>
 <instance part="TP1" gate="G$1" x="-215.9" y="0" smashed="yes">
 <attribute name="NAME" x="-218.44" y="2.54" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="-215.9" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-215.9" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-215.9" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="-137.16" y="68.58" smashed="yes">
 <attribute name="VALUE" x="-139.7" y="66.04" size="1.778" layer="96"/>
@@ -3693,18 +3818,33 @@ Switches electrical signals</description>
 <instance part="Q1" gate="G$1" x="-35.56" y="-83.82" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-35.56" y="-78.74" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="-35.56" y="-87.884" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="OC_FARNELL" x="-35.56" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-35.56" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-35.56" y="-83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="-53.34" y="-88.9" smashed="yes">
 <attribute name="NAME" x="-59.436" y="-88.519" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-60.198" y="-93.345" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-53.34" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-53.34" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-53.34" y="-88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="-45.72" y="-88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.5986" y="-90.17" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-39.878" y="-92.71" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="-45.72" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-45.72" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-45.72" y="-88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="-60.96" y="-99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="-57.15" y="-100.5586" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-57.15" y="-95.758" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="-60.96" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-60.96" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-60.96" y="-99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J1" gate="A" x="-259.08" y="-116.84" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-263.2456" y="-111.5314" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
 </instances>
 <busses>
@@ -3730,12 +3870,10 @@ Switches electrical signals</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="SLD"/>
-<wire x1="-254" y1="-127" x2="-254" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="-254" y1="-129.54" x2="-254" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="-254" y="-129.54"/>
+<wire x1="-254" y1="-127" x2="-254" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="J1" gate="A" pin="5"/>
+<wire x1="-259.08" y1="-127" x2="-254" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -3867,21 +4005,21 @@ Switches electrical signals</description>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="5V"/>
 <pinref part="U1" gate="G$1" pin="VI"/>
-<wire x1="-254" y1="-116.84" x2="-236.22" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="-116.84" x2="-236.22" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="-236.22" y1="-116.84" x2="-233.68" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="-256.54" y1="-99.06" x2="-236.22" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="-236.22" y1="-99.06" x2="-236.22" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="-236.22" y="-116.84"/>
+<pinref part="J1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D-"/>
-<wire x1="-254" y1="-119.38" x2="-248.92" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-248.92" y="-119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="A" pin="2"/>
+<wire x1="-259.08" y1="-119.38" x2="-248.92" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SAMD21" gate="G$1" pin="PA24"/>
@@ -3891,9 +4029,9 @@ Switches electrical signals</description>
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
-<wire x1="-254" y1="-121.92" x2="-248.92" y2="-121.92" width="0.1524" layer="91"/>
 <label x="-248.92" y="-121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="A" pin="3"/>
+<wire x1="-259.08" y1="-121.92" x2="-248.92" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SAMD21" gate="G$1" pin="PA25"/>
