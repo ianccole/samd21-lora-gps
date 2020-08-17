@@ -1277,7 +1277,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="SAMD21" pad="1"/>
 <wire x1="19.3802" y1="13.8684" x2="19.45505625" y2="13.728909375" width="0.1524" layer="1"/>
 <wire x1="19.45505625" y1="13.728909375" x2="19.47146875" y2="13.698325" width="0.1524" layer="1"/>
-<wire x1="12.934" y1="16.002" x2="18.2118" y2="16.002" width="0.254" layer="1"/>
+<wire x1="12.934" y1="16.002" x2="18.2118" y2="16.002" width="0.1524" layer="1"/>
 <wire x1="18.2118" y1="16.002" x2="18.2118" y2="14.972165625" width="0.254" layer="1"/>
 <wire x1="18.2118" y1="14.972165625" x2="19.45505625" y2="13.728909375" width="0.254" layer="1"/>
 </signal>
