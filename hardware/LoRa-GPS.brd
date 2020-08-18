@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -37,7 +37,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -825,12 +825,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_FARNELL" value="unknown" x="11.43" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.319" y="9.652" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C2" library="nootropicdesign" package="C0603-THINCREAM" value="18pF" x="7.874" y="16.002" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="7.874" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7.874" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.763" y="15.24" size="1.27" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="7.874" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.763" y="18.034" size="1.27" layer="27" rot="R180"/>
+<element name="C2" library="nootropicdesign" package="C0603-THINCREAM" value="18pF" x="7.62" y="16.51" smashed="yes" rot="R180">
+<attribute name="MF" value="" x="7.62" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7.62" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="8.509" y="15.748" size="1.27" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="unknown" x="7.62" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="8.509" y="18.542" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="nootropicdesign" package="C0603-THINCREAM" value="18pF" x="19.05" y="16.002" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="19.05" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
@@ -952,19 +952,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="IRLML6402TRPBF " x="36.83" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.83" y="9.271" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C10" library="nootropicdesign" package="C0603-THINCREAM" value="4.7uF" x="40.64" y="7.62" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="40.64" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="40.64" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.402" y="8.509" size="1.27" layer="25" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="40.64" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="38.608" y="8.509" size="1.27" layer="27" rot="R270"/>
+<element name="C10" library="nootropicdesign" package="C0603-THINCREAM" value="4.7uF" x="43.18" y="7.62" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="43.942" y="8.509" size="1.27" layer="25" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="43.18" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="41.148" y="8.509" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R2" library="nootropicdesign" package="R0603-THINCREAM" value="470" x="39.37" y="7.62" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="39.37" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="39.37" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.481" y="6.731" size="1.27" layer="25" rot="R90"/>
-<attribute name="OC_FARNELL" value="unknown" x="39.37" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="41.402" y="6.731" size="1.27" layer="27" rot="R90"/>
+<element name="R2" library="nootropicdesign" package="R0603-THINCREAM" value="470" x="40.64" y="7.62" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="40.64" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="40.64" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.751" y="6.731" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="40.64" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="42.672" y="6.731" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="nootropicdesign" package="R0603-THINCREAM" value="2K2" x="36.83" y="5.08" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="36.83" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1031,7 +1031,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="SAMD21" pad="30"/>
 <contactref element="TP2" pad="P$1"/>
 <via x="33.02" y="13.97" extent="1-16" drill="0.254"/>
-<wire x1="33.02" y1="13.97" x2="33.05" y2="13.94" width="0.254" layer="16"/>
 <wire x1="12.2682" y1="8.7122" x2="12.2682" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="11.557" y1="9.4234" x2="12.2682" y2="8.7122" width="0.1524" layer="1"/>
 <wire x1="11.557" y1="11.9126" x2="11.557" y2="11.0236" width="0.1524" layer="1"/>
@@ -1059,22 +1058,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.4676" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="16"/>
 <wire x1="14.0462" y1="9.9568" x2="14.09" y2="9.89" width="0.1524" layer="16"/>
 <wire x1="12.0904" y1="3.3782" x2="6.223" y2="3.3782" width="0.1524" layer="1"/>
-<wire x1="14.4018" y1="1.0668" x2="14.0843" y2="1.3843" width="0.1524" layer="1"/>
 <wire x1="14.0843" y1="1.3843" x2="12.0904" y2="3.3782" width="0.1524" layer="1"/>
 <wire x1="6.223" y1="3.3782" x2="6.049" y2="3.236" width="0.1524" layer="1"/>
 <wire x1="24.3586" y1="9.9568" x2="14.224" y2="9.9568" width="0.1524" layer="16"/>
 <wire x1="27.2034" y1="12.8016" x2="24.3586" y2="9.9568" width="0.1524" layer="16"/>
 <wire x1="32.893" y1="12.8016" x2="27.2034" y2="12.8016" width="0.1524" layer="16"/>
 <wire x1="14.224" y1="9.9568" x2="14.09" y2="9.89" width="0.1524" layer="16"/>
-<wire x1="27.559" y1="15.113" x2="27.2034" y2="15.113" width="0.1524" layer="1"/>
-<wire x1="27.2034" y1="15.113" x2="27.1018" y2="15.24" width="0.1524" layer="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="C10" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="GPS" pad="5"/>
-<wire x1="37.83" y1="8.57" x2="39.2582" y2="8.57" width="0.1524" layer="1"/>
-<wire x1="39.2582" y1="8.57" x2="39.37" y2="8.4582" width="0.1524" layer="1"/>
-<wire x1="39.37" y1="8.4582" x2="40.64" y2="8.4582" width="0.1524" layer="1"/>
+<wire x1="37.83" y1="8.57" x2="40.5282" y2="8.57" width="0.1524" layer="1"/>
+<wire x1="40.5282" y1="8.57" x2="40.64" y2="8.4582" width="0.1524" layer="1"/>
+<wire x1="40.64" y1="8.4582" x2="43.18" y2="8.4582" width="0.1524" layer="1"/>
 <wire x1="27.1018" y1="15.24" x2="27.1018" y2="14.3002" width="0.1524" layer="1"/>
 <wire x1="27.432" y1="13.97" x2="33.02" y2="13.97" width="0.1524" layer="1"/>
 <wire x1="27.1018" y1="14.3002" x2="27.3685" y2="14.0335" width="0.1524" layer="1"/>
@@ -1107,7 +1103,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="1.6002" y1="2.4892" x2="1.778" y2="2.3114" width="0.1524" layer="1"/>
 <wire x1="3.2004" y1="2.3114" x2="3.349" y2="2.286" width="0.1524" layer="1"/>
 <wire x1="1.6002" y1="2.4892" x2="1.524" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="1.6002" y1="2.667" x2="1.524" y2="2.54" width="0.1524" layer="16"/>
 <contactref element="J1" pad="1"/>
 <wire x1="4.1827" y1="10.19" x2="3.205" y2="10.19" width="0.1524" layer="1"/>
 <wire x1="3.205" y1="10.19" x2="2.921" y2="9.906" width="0.1524" layer="1"/>
@@ -1269,13 +1264,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.4902" y1="16.002" x2="11.7348" y2="14.7574" width="0.1524" layer="1"/>
 <wire x1="18.8468" y1="13.1572" x2="18.905784375" y2="13.132640625" width="0.1524" layer="1"/>
 <wire x1="10.4902" y1="16.002" x2="10.434" y2="16.002" width="0.1524" layer="1"/>
-<wire x1="10.434" y1="16.002" x2="8.7122" y2="16.002" width="0.1524" layer="1"/>
+<wire x1="10.434" y1="16.002" x2="9.926" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="9.926" y1="16.51" x2="8.4582" y2="16.51" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Y1" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="SAMD21" pad="1"/>
-<wire x1="19.3802" y1="13.8684" x2="19.45505625" y2="13.728909375" width="0.1524" layer="1"/>
 <wire x1="19.45505625" y1="13.728909375" x2="19.47146875" y2="13.698325" width="0.1524" layer="1"/>
 <wire x1="12.934" y1="16.002" x2="18.2118" y2="16.002" width="0.1524" layer="1"/>
 <wire x1="18.2118" y1="16.002" x2="18.2118" y2="14.972165625" width="0.254" layer="1"/>
@@ -1374,9 +1369,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R2" pad="1"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="40.64" y1="6.7818" x2="39.37" y2="6.7818" width="0.1524" layer="1"/>
-<wire x1="39.37" y1="6.7818" x2="39.2582" y2="6.67" width="0.1524" layer="1"/>
-<wire x1="39.2582" y1="6.67" x2="37.83" y2="6.67" width="0.1524" layer="1"/>
+<wire x1="43.18" y1="6.7818" x2="40.64" y2="6.7818" width="0.1524" layer="1"/>
+<wire x1="40.64" y1="6.7818" x2="40.5282" y2="6.67" width="0.1524" layer="1"/>
+<wire x1="40.5282" y1="6.67" x2="37.83" y2="6.67" width="0.1524" layer="1"/>
 <wire x1="37.83" y1="6.67" x2="37.83" y2="5.2418" width="0.1524" layer="1"/>
 <wire x1="37.83" y1="5.2418" x2="37.6682" y2="5.08" width="0.1524" layer="1"/>
 </signal>
@@ -1403,6 +1398,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,5d4f5956b032b42b"/>
+<approved hash="19,1,66d5068801489b78"/>
+<approved hash="19,1,12c616d9c83dcc22"/>
+<approved hash="19,1,42060688055abb3b"/>
+<approved hash="19,1,5d4b5e48b72cb42f"/>
+<approved hash="19,1,12c211c7cf23cc26"/>
+<approved hash="19,16,66d5068801489b78"/>
+<approved hash="19,16,42060688055abb3b"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
