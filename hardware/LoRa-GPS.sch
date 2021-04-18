@@ -3548,7 +3548,7 @@ Switches electrical signals</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R2" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="470">
+<part name="R2" library="nootropicdesign" deviceset="R-US" device="R0603-THINCREAM" value="47k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
