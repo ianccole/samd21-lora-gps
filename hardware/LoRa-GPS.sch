@@ -2836,77 +2836,6 @@ Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-tact">
-<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
-&lt;p&gt;&lt;ul&gt;
-&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
-&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
-&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
-&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
-<packages>
-<package name="DTSM-3">
-<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="51"/>
-<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.2032" layer="51"/>
-<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-1.75" x2="-3" y2="1.75" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="1.75" x2="-3" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="3" y1="1.75" x2="3" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.25" x2="3" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-1.75" x2="-3" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="-0.75" x2="1.2" y2="-0.75" width="0.2032" layer="21"/>
-<smd name="1" x="-3.335" y="0" dx="2" dy="1.6" layer="1"/>
-<smd name="2" x="3.335" y="0" dx="2" dy="1.6" layer="1"/>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TS">
-<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DTSM-3" prefix="S">
-<gates>
-<gate name="G$1" symbol="TS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DTSM-3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Passives">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -3530,6 +3459,83 @@ Switches electrical signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SKTHACE010">
+<description>&lt;b&gt;SKTHACE010-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.975" y="-0.65" dx="1.05" dy="0.9" layer="1"/>
+<smd name="2" x="1.975" y="-0.65" dx="1.05" dy="0.9" layer="1"/>
+<smd name="3" x="-1.975" y="0.65" dx="1.05" dy="0.9" layer="1"/>
+<smd name="4" x="1.975" y="0.65" dx="1.05" dy="0.9" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.6" x2="1.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.6" x2="1.75" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.6" x2="-1.75" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.6" x2="-1.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="2.6" x2="3.5" y2="2.6" width="0.1" layer="51"/>
+<wire x1="3.5" y1="2.6" x2="3.5" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-2.6" x2="-3.5" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-2.6" x2="-3.5" y2="2.6" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="1.6" x2="1.75" y2="1.6" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.6" x2="1.75" y2="1.4" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.6" x2="1.75" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.6" x2="1.75" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-3" y1="-0.6" x2="-3" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="-0.6" x2="-3" y2="-0.8" width="0.2" layer="21" curve="180"/>
+<wire x1="-3" y1="-0.8" x2="-3" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-3" y1="-0.8" x2="-3" y2="-0.6" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SKTHACE010">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" length="middle"/>
+<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="0" y="0" length="middle"/>
+<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SKTHACE010" prefix="S">
+<description>&lt;b&gt;Tactile Switches H 1.8mm, 1.4N&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/15/Alps_06072019_SKTHACE010-1601564.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SKTHACE010" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SKTHACE010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tactile Switches H 1.8mm, 1.4N" constant="no"/>
+<attribute name="HEIGHT" value="2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Alps Alpine" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SKTHACE010" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="688-SKTHACE010" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKTHACE010?qs=W0yvOO0ixfETFQz5HAj5BQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3666,11 +3672,6 @@ Switches electrical signals</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="S2" library="switch-tact" deviceset="DTSM-3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="GND">
@@ -3703,6 +3704,7 @@ Switches electrical signals</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="ANT" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="J3" library="USB3085-XX-X_REVD" deviceset="USB3085-XX-X_REVD" device=""/>
+<part name="S1" library="SamacSys_Parts" deviceset="SKTHACE010" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3927,13 +3929,6 @@ Switches electrical signals</description>
 <attribute name="MF" x="-243.84" y="-134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-243.84" y="-134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S2" gate="G$1" x="-121.92" y="5.08" smashed="yes">
-<attribute name="NAME" x="-128.27" y="3.175" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-125.73" y="8.255" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_FARNELL" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-121.92" y="5.08" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND15" gate="1" x="-121.92" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="-124.46" y="-15.24" size="1.778" layer="96"/>
 </instance>
@@ -3994,6 +3989,10 @@ Switches electrical signals</description>
 <instance part="J3" gate="G$1" x="-271.78" y="-124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-266.696890625" y="-113.7855" size="1.779090625" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-251.452190625" y="-147.3395" size="1.78073125" layer="96" rot="MR0"/>
+</instance>
+<instance part="S1" gate="G$1" x="-127" y="0" smashed="yes">
+<attribute name="NAME" x="-110.49" y="7.62" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-110.49" y="5.08" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -4085,11 +4084,6 @@ Switches electrical signals</description>
 <wire x1="-238.76" y1="86.36" x2="-236.22" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="-10.16" x2="-121.92" y2="0" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SAMD21" gate="G$1" pin="GND@2"/>
 <wire x1="-165.1" y1="81.28" x2="-137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -4105,6 +4099,15 @@ Switches electrical signals</description>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-157.48" y1="-99.06" x2="-157.48" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="-93.98" x2="-162.56" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="-10.16" x2="-106.68" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-10.16" x2="-106.68" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="4"/>
+<wire x1="-106.68" y1="-2.54" x2="-106.68" y2="0" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-2.54"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4285,10 +4288,15 @@ Switches electrical signals</description>
 <label x="-220.98" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="-121.92" y1="10.16" x2="-121.92" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="17.78" x2="-114.3" y2="17.78" width="0.1524" layer="91"/>
 <label x="-114.3" y="17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="-121.92" y1="10.16" x2="-127" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-127" y1="10.16" x2="-127" y2="0" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="-127" y1="-2.54" x2="-127" y2="0" width="0.1524" layer="91"/>
+<junction x="-127" y="0"/>
 </segment>
 </net>
 <net name="RX" class="0">
