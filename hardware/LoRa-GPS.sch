@@ -8033,6 +8033,103 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Coils" urn="urn:adsk.eagle:library:512">
+<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
+In this library you'll find magnetics.
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
+&lt;li&gt;Ferrite Beads&lt;/li&gt;
+&lt;li&gt;Transformers&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:37562/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:37574/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="FERRITE_BEAD" urn="urn:adsk.eagle:symbol:37565/1" library_version="1">
+<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FERRITE_BEAD" urn="urn:adsk.eagle:component:37585/1" prefix="FB" library_version="1">
+<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13339"&gt;SparkFun 6 Degrees of Freedom Breakout - LSM6DS3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13672"&gt;SparkFun SAMD21 Dev Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37574/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-07859"/>
+<attribute name="VALUE" value="30Ω/1.8A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8210,6 +8307,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="MPN" value="02016D104KAT2A"/>
 <attribute name="OC_FARNELL" value="1657913"/>
 </part>
+<part name="FB1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="FERRITE_BEAD" device="-0603" package3d_urn="urn:adsk.eagle:package:37574/1" value="30Ω/1.8A"/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8309,12 +8409,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="MF" x="-127" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-127" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="-215.9" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="-216.281" y="70.104" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-211.201" y="70.104" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_FARNELL" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-215.9" y="68.58" size="1.778" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="-228.6" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="-230.124" y="63.119" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-230.124" y="68.199" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="-228.6" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-228.6" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-228.6" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="-162.56" y="-124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="-162.941" y="-122.936" size="1.778" layer="95" rot="R90"/>
@@ -8323,8 +8423,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="MF" x="-162.56" y="-124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-162.56" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND4" gate="1" x="-218.44" y="63.5" smashed="yes">
-<attribute name="VALUE" x="-220.98" y="60.96" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="-228.6" y="58.42" smashed="yes">
+<attribute name="VALUE" x="-231.14" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="-127" y="68.58" smashed="yes">
 <attribute name="VALUE" x="-129.54" y="66.04" size="1.778" layer="96"/>
@@ -8517,6 +8617,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="MF" x="-226.06" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="-226.06" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="FB1" gate="G$1" x="-228.6" y="73.66" smashed="yes">
+<attribute name="NAME" x="-227.33" y="76.2" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-227.33" y="71.12" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="P+4" gate="VCC" x="-228.6" y="81.28" smashed="yes">
+<attribute name="VALUE" x="-231.14" y="78.74" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="1" x="-218.44" y="58.42" smashed="yes">
+<attribute name="VALUE" x="-220.98" y="55.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8549,10 +8659,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-218.44" y1="68.58" x2="-218.44" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SAMD21" gate="G$1" pin="GND@1"/>
-<wire x1="-200.66" y1="66.04" x2="-218.44" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-218.44" y="66.04"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -8642,6 +8748,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-215.9" y1="-78.74" x2="-215.9" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="-215.9" y="-86.36"/>
 </segment>
+<segment>
+<pinref part="SAMD21" gate="G$1" pin="GND@1"/>
+<wire x1="-200.66" y1="66.04" x2="-218.44" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-218.44" y1="66.04" x2="-218.44" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -8693,6 +8805,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-40.64" y1="-116.84" x2="-38.1" y2="-116.84" width="0.1524" layer="91"/>
 <label x="-38.1" y="-116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="FB1" gate="G$1" pin="1"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -8739,7 +8855,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="SAMD21" gate="G$1" pin="VDDANA"/>
-<wire x1="-210.82" y1="68.58" x2="-200.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="68.58" x2="-200.66" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="FB1" gate="G$1" pin="2"/>
+<junction x="-228.6" y="68.58"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
