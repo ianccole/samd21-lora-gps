@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -2075,25 +2075,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_FARNELL" value="1657913" x="27.94" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.051" y="3.048" size="1.27" layer="27"/>
 </element>
-<element name="TP5" library="SparkFun-Passives" package="PAD.03X.05" value="" x="1.27" y="11.43" smashed="yes" rot="MR0">
-<attribute name="MF" value="" x="1.27" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="11.43" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP5" library="SparkFun-Passives" package="PAD.03X.05" value="" x="6.35" y="9.271" smashed="yes" rot="MR0">
+<attribute name="MF" value="" x="6.35" y="9.271" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="9.271" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="6.35" y="9.271" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP4" library="SparkFun-Passives" package="PAD.03X.05" value="" x="1.27" y="16.51" smashed="yes" rot="MR0">
-<attribute name="MF" value="" x="1.27" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP4" library="SparkFun-Passives" package="PAD.03X.05" value="" x="6.35" y="16.383" smashed="yes" rot="MR0">
+<attribute name="MF" value="" x="6.35" y="16.383" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="16.383" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="6.35" y="16.383" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP3" library="SparkFun-Passives" package="PAD.03X.05" value="" x="1.27" y="14.859" smashed="yes" rot="MR0">
-<attribute name="MF" value="" x="1.27" y="14.859" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="14.859" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="14.859" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP3" library="SparkFun-Passives" package="PAD.03X.05" value="" x="6.35" y="14.351" smashed="yes" rot="MR0">
+<attribute name="MF" value="" x="6.35" y="14.351" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="14.351" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="6.35" y="14.351" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP2" library="SparkFun-Passives" package="PAD.03X.05" value="VCC" x="1.27" y="13.208" smashed="yes" rot="MR0">
-<attribute name="MF" value="" x="1.27" y="13.208" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="13.208" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="13.208" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP2" library="SparkFun-Passives" package="PAD.03X.05" value="VCC" x="6.35" y="11.938" smashed="yes" rot="MR0">
+<attribute name="MF" value="" x="6.35" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="6.35" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="JP1" library="nootropicdesign" package="1X01_LONG" value="M01LONG" x="48.895" y="16.002" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="48.895" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2105,10 +2105,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="" x="48.895" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="48.895" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP1" library="SparkFun-Passives" package="PAD.03X.05" value="GND" x="1.27" y="9.652" smashed="yes" rot="MR180">
-<attribute name="MF" value="" x="1.27" y="9.652" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="9.652" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="9.652" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP1" library="SparkFun-Passives" package="PAD.03X.05" value="GND" x="6.35" y="7.112" smashed="yes" rot="MR180">
+<attribute name="MF" value="" x="6.35" y="7.112" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="7.112" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="6.35" y="7.112" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Q1" library="ianc" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:38446/1" value="IRLML6402" x="35.56" y="15.24" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="35.56" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2144,8 +2144,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" SMA Connector Jack, Female Socket Board Edge, End Launch Solder " x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="RF Solutions" x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MP" value="CON-SMA-EDGE-S" x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="NAME" x="0.413" y="8.064" size="0.8128" layer="25"/>
 <attribute name="NAME" x="0.413" y="8.064" size="0.8128" layer="26"/>
+<attribute name="NAME" x="0.413" y="8.064" size="0.8128" layer="25"/>
 <attribute name="PACKAGE" value="None" x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="PRICE" value="None" x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CON-SMA-EDGE-S/?ref=eda" x="2.413" y="4.064" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -2250,6 +2250,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="42.164" y="15.113" extent="1-16" drill="0.254"/>
 <via x="24.13" y="16.891" extent="1-16" drill="0.254"/>
 <contactref element="SAMD21" pad="10"/>
+<via x="18.415" y="11.176" extent="1-16" drill="0.254"/>
+<via x="33.02" y="11.43" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="VCC">
 <contactref element="C1" pad="1"/>
@@ -2264,8 +2266,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R2" pad="2"/>
 <contactref element="GPS" pad="5"/>
 <wire x1="11.3792" y1="9.9568" x2="11.2014" y2="10.1346" width="0.1524" layer="16"/>
-<wire x1="1.27" y1="13.208" x2="4.3434" y2="10.1346" width="0.1524" layer="16"/>
-<wire x1="11.2014" y1="10.1346" x2="4.3434" y2="10.1346" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="11.938" x2="8.1534" y2="10.1346" width="0.1524" layer="16"/>
+<wire x1="11.2014" y1="10.1346" x2="8.1534" y2="10.1346" width="0.1524" layer="16"/>
 <wire x1="11.3792" y1="9.9568" x2="11.55" y2="9.89" width="0.1524" layer="16"/>
 <wire x1="38.0238" y1="16.1798" x2="36.6014" y2="16.1798" width="0.1524" layer="1"/>
 <wire x1="36.6014" y1="16.1798" x2="36.56" y2="16.19" width="0.1524" layer="1"/>
@@ -2443,12 +2445,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.6464" y1="9.6012" x2="19.7358" y2="13.6906" width="0.1524" layer="1"/>
 <wire x1="19.7358" y1="13.6906" x2="19.898528125" y2="13.698325" width="0.1524" layer="1"/>
 <via x="15.6464" y="9.6012" extent="1-16" drill="0.254"/>
-<wire x1="7.8232" y1="8.7122" x2="3.59954375" y2="8.7122" width="0.1524" layer="16"/>
+<wire x1="7.8232" y1="8.7122" x2="6.828971875" y2="8.7122" width="0.1524" layer="16"/>
 <wire x1="9.6012" y1="6.9342" x2="7.8232" y2="8.7122" width="0.1524" layer="16"/>
 <wire x1="13.5128" y1="6.9342" x2="9.6012" y2="6.9342" width="0.1524" layer="16"/>
 <wire x1="15.6464" y1="9.0678" x2="13.5128" y2="6.9342" width="0.1524" layer="16"/>
 <wire x1="15.6464" y1="9.6012" x2="15.6464" y2="9.0678" width="0.1524" layer="16"/>
-<wire x1="3.59954375" y1="8.7122" x2="1.27" y2="11.43" width="0.1524" layer="16"/>
+<wire x1="6.828971875" y1="8.7122" x2="6.35" y2="9.271" width="0.1524" layer="16"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="SAMD21" pad="31"/>
@@ -2459,8 +2461,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.9756" y1="17.0688" x2="13.8684" y2="17.0688" width="0.1524" layer="16"/>
 <wire x1="20.447" y1="12.9794" x2="20.4642125" y2="13.132640625" width="0.1524" layer="1"/>
 <via x="19.9136" y="12.446" extent="1-16" drill="0.254"/>
-<wire x1="7.4168" y1="16.51" x2="7.9756" y2="17.0688" width="0.1524" layer="16"/>
-<wire x1="1.27" y1="16.51" x2="7.4168" y2="16.51" width="0.1524" layer="16"/>
+<wire x1="7.2898" y1="16.383" x2="7.9756" y2="17.0688" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="16.383" x2="7.2898" y2="16.383" width="0.1524" layer="16"/>
 </signal>
 <signal name="RESET">
 <contactref element="SAMD21" pad="26"/>
@@ -2474,10 +2476,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.6906" y1="11.2014" x2="14.0462" y2="10.8458" width="0.1524" layer="16"/>
 <wire x1="13.335" y1="10.8458" x2="13.6906" y2="11.2014" width="0.1524" layer="16"/>
 <wire x1="9.779" y1="10.8458" x2="13.335" y2="10.8458" width="0.1524" layer="16"/>
-<wire x1="8.89" y1="11.7348" x2="9.779" y2="10.8458" width="0.1524" layer="16"/>
-<wire x1="5.019040625" y1="11.7348" x2="8.89" y2="11.7348" width="0.1524" layer="16"/>
 <wire x1="23.2918" y1="10.1346" x2="23.292640625" y2="10.3042125" width="0.1524" layer="1"/>
-<wire x1="5.019040625" y1="11.7348" x2="1.27" y2="14.859" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="14.351" x2="6.35" y2="14.2748" width="0.1524" layer="16"/>
+<wire x1="9.779" y1="10.8458" x2="6.35" y2="14.2748" width="0.1524" layer="16"/>
 <wire x1="27.0256" y1="2.667" x2="28.8036" y2="0.889" width="0.1524" layer="1"/>
 <wire x1="22.5806" y1="2.667" x2="27.0256" y2="2.667" width="0.1524" layer="1"/>
 <wire x1="21.6916" y1="2.667" x2="22.5806" y2="2.667" width="0.1524" layer="16"/>
